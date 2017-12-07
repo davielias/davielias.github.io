@@ -1,0 +1,339 @@
+html, body {
+	/*height: 100%;
+	width: 100%;*/
+	margin: 0;
+	background-color: #000000;
+}
+
+
+@media screen and (max-width: 767px) {
+	.jumbotron p {font-size: 16px;}
+	.theProduct .text-content {
+		text-align: center;
+		font-size: 16px;
+		height: auto;}
+	.story p {
+		font-size: 16px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.jumbotron p {font-size: 18px;}
+	.theProduct .text-content {
+		text-align: center;
+		font-size: 16px;
+		height: auto;}
+	.story p {
+		font-size: 16px;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	.jumbotron p {font-size: 22px;}
+	.theProduct .text-content {
+		text-align: center;
+		font-size: 18px;
+		height: auto;}
+	.story p {
+		font-size: 18px;
+	}
+}
+
+@media screen and (min-width: 12px) {
+	.jumbotron p {font-size: 24px;}
+	.theProduct .text-content {
+		text-align: center;
+		font-size: 18px;}
+	.story p {
+		font-size: 18px;
+	}
+	/*.story .img-responsive{*/
+	/*padding:0;*/
+	/*margin:0;*/
+	/*}*/
+}
+
+@keyframes fadein{
+	from{opacity:0;}
+	to{opacity:1;}
+}
+
+@keyframes fadeout{
+	from{opacity:1;}
+	to{opacity:0;}
+}
+
+.social {
+	margin-left: 0;
+	margin-right: 0;
+	width: 100%;
+}
+
+.social-icons {
+	height: auto;
+	width: auto;
+	float: right;
+}
+
+i {
+	display: inline;
+	color: #9eefdc;
+	padding: 15px;
+}
+
+.button {
+	display: flex;
+	justify-content: center;
+	height: auto;
+	margin: 30px 0 0 0;
+}
+
+.button p {
+	font-family: 'Abel', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	color: #000000;
+	margin: 0;
+}
+
+.btn {
+	border: none;
+	border-radius: 20px;
+}
+
+.btn-default {
+	background-color: #9eefdc;
+	color: #000000;
+	padding: 10px 30px;
+	border: 2px solid #9eefdc;
+}
+
+.btn:hover {
+	border: 2px solid #9eefdc;
+	background-color: #ffffff;
+}
+
+.jumbotron {
+	margin: auto;
+	background-color: #000000;
+	padding: 20px;
+}
+
+.jumbotron img {
+	display: flex;
+	justify-content: center;
+	margin: auto;
+	max-height: 100px;
+	width: auto;
+}
+
+.jumbotron h1 {
+	margin: 15px;
+}
+
+.jumbotron p {
+	font-family: 'Abel', sans-serif;
+	font-weight: 400;
+	color: #ffffff;
+	margin: 0;
+}
+
+.img-responsive {
+	width: 100%;
+	display: block;
+	height: auto;
+}
+
+.mainCont{
+	margin: auto;
+	height:auto;
+}
+
+.helmet-closed, .helmet-open {
+	margin: 0;
+	width: 100%;
+}
+
+.carousel-fade{
+	background-color: #000000;
+	margin:0;
+	padding: 0;
+	width:100%;
+	height:100%;
+}
+
+.carousel-fade .carousel-inner .item {
+	opacity: 0.1;
+	-webkit-transition-property: opacity;
+	-moz-transition-property: opacity;
+	-o-transition-property: opacity;
+	transition-property: opacity;
+}
+
+.carousel-fade .carousel-inner .active {
+	opacity: 1;
+}
+
+.carousel-fade .carousel-inner .left,
+.carousel-fade .carousel-inner .right {
+	opacity: 1;
+}
+
+.carousel-fade .carousel-control {
+	z-index: 2;
+}
+
+.founders {
+	display: flex;
+}
+
+.story {
+	background-color: #9eefdc;
+	width: 100%;
+	height: auto;
+}
+
+.story img {
+	margin: auto;
+	height: 450px;
+	width: auto;
+	padding: 30px;
+}
+
+.story .img-responsive {
+	width: auto;
+	height: auto;
+}
+
+.story p {
+	font-family: 'Abel', sans-serif;
+	font-weight: 400;
+	color: #000000;
+	margin: 0;
+	padding-bottom: 30px;
+}
+
+.video {
+	margin: 10px auto;
+	height: auto;
+}
+
+.video-wrapper-button {
+	color: #9eefdc;
+}
+
+.ytp-watermark {
+	visibility: hidden;
+}
+
+.theProduct {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.theProduct .row {
+	margin: 0;
+	padding: 0;
+	background-color: #000000;
+}
+
+.theProduct .col-xs-12,
+.theProduct .col-sm-12,
+.theProduct .col-md-6,
+.theProduct .col-lg-6 {
+	margin: 0;
+	padding: 0;
+}
+
+.thumbnail {
+	margin: 0;
+	padding: 0;
+	border: none;
+	height: auto;
+	width: 100%;
+}
+
+.theProduct .text-content {
+	margin: auto;
+	padding: 10% 40px;
+}
+
+.theProduct h1 {
+	font-family: 'Abel', sans-serif;
+	font-weight: 400;
+	color: #9eefdc;
+}
+
+.theProduct p {
+	font-family: 'Abel', sans-serif;
+	font-weight: 400;
+	color: #ffffff;
+}
+.social-footer-small{
+	display:flex;
+	justify-content: center;
+}
+.footer-info{
+	font-family: 'Abel', sans-serif;
+	font-weight: 400;
+	color: #9eefdc;
+	text-align: center;
+}
+#faq{
+	margin-top: 10px;
+}
+.footer-small{
+	display:inline;
+}
+.fend-logo-footer-small{
+	height:20%;
+	width:20%;
+	display:inline;
+}
+#copyright-small{
+	font-family: 'Abel', sans-serif;
+	color: #9eefdc;
+	float: right;
+}
+.footer-info-large{
+	font-family: 'Abel', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	color: #9eefdc;
+	width: auto;
+	display:inline;
+
+}
+.button-large{
+	display:flex;
+	justify-content: flex-end;
+}
+.sign-up{
+	height: 15%;
+	width:100%;
+	text-align: center;
+	background-color: #eefdf9;
+}
+.listing {
+	margin-bottom: 20px;
+	font-family: 'Abel', sans-serif;
+	font-weight: 400;
+}
+.listButton{
+	margin: 17px;
+}
+#copyright-large{
+	font-family: 'Abel', sans-serif;
+	color: #9eefdc;
+	float: right;
+}
+.fend-logo-footer-large{
+	height:20%;
+	width:20%;
+	display:inline;
+}
+.part-of-footer{
+	display: inline-block;
+	margin-top: 30px;
+}

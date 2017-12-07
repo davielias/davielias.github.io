@@ -1,47 +1,164 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Plowshares</title>
-    <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
-    <link rel="stylesheet" href="./css/fonts.css">
-
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<title>FEND</title>
+	<link rel="shortcut icon" href="//cdn.shopify.com/s/files/1/1572/8895/files/icon-a-06_32x32.png?v=1478286329" type="image/png">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="./css/FEND.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-<div id="myNav" class="overlay">
-    <a href="javascript:void(0)" class="closebtn" onclick="Plowshare.closeNav()">&times;</a>
-    <div class="overlay-content">
-        <a onclick="Plowshare.delete(event)" id="deleteButton">Remove Selected Crop</a>
-    </div>
+<div class="jumbotron img-responsive center-block text-center">
+	<div class="container social hidden-xs hidden-sm">
+		<div class="social-icons">
+			<i class="fa fa-facebook fa-2x"></i>
+			<i class="fa fa-twitter fa-2x"></i>
+			<i class="fa fa-instagram fa-2x"></i>
+		</div>
+	</div>
+	<div class="container">
+		<div class="logo">
+			<h1><img src="./Images/FEND-WhiteLogo.png" class="img-responsive center-block"></h1>
+			<p>The Foldable Helmet Designed for the Everyday Commuter</p>
+		</div>
+		<div class="button">
+			<p><a class="btn btn-default" href="#" role="button">PRE-ORDER NOW</a></p>
+		</div>
+	</div>
 </div>
-<div id="tabNav" class="overlay">
-    <a href="javascript:void(0)" class="closebtn" onclick="Plowshare.closeNav()">&times;</a>
-    <div class="container">
-        <table class="table">
-            <thead>
-                <tr>
-                    <th>Vegetables</th>
-                    <th>Fruits</th>
-                    <th>Herbs</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td onclick="Plowshare.chickpeaClick(event)">Chickpeas</td>
-                    <td>Dates</td>
-                    <td onclick="Plowshare.sesameClick(event)">Sesame</td>
-                </tr>
-            <tr>
-                <td>Peppers</td>
-                <td>Prickly Pear</td>
-                <td>Curry</td>
-            </tr>
-            </tbody>
-        </table>
-    </div>
+
+<div class ="container mainCont hidden-xs hidden-sm">
+	<div class="row">
+		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 carousel-fade">
+			<div id="myCarousel" class="carousel slide carousel-inner">
+				<div class="carousel-inner">
+					<div class="active item"><img class="helmet-closed" src="./Images/slide-2-image - Copy.jpg"></div>
+					<div class="item"><img class="helmet-open" src="./Images/slide-1-image - Copy.jpg"></div>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
-    <script src="./js/main.js"></script>
+<div class="container theProduct">
+	<div class="row">
+		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+			<a href="#" class="thumbnail">
+				<img src="./Images/hrc-image.png" alt="Design"/>
+			</a>
+		</div>
+		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 text-content">
+			<h1>BEAUTIFULLY DESIGNED</h1>
+			<p>Minimalistic and streamlined design approach while maintaining maximum protection. Resilient Joint System allowing for maximum breathability and portability.</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" style="float: right;">
+			<a href="#" class="thumbnail">
+				<img src="./Images/trump-image.png" alt="Breathe"/>
+			</a>
+		</div>
+		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 text-content" style="float: left;">
+			<h1>LIGHT &amp; AIRY</h1>
+			<p>No more overheating! FEND was designed using streamlined vents for cooling to allow for maximum breathability. Added plush interior liner for increased ventilation.</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+			<a href="#" class="thumbnail">
+				<img src="./Images/bernie-image.png" alt="Pack"/>
+			</a>
+		</div>
+		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 text-content">
+			<h1>SUPER PACKABLE</h1>
+			<p>Say goodbye to bulky helmets! FEND's resilient Joint System allows for the helmet to fold for maximum convenience. Simply fold the helmet and slip it into your bag until you need it again.</p>
+		</div>
+	</div>
+</div>
+<div class="container video">
+	<div class="row">
+		<div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2">
+			<div class="embed-responsive embed-responsive-16by9">
+				<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/-AjxKxPHrt0?rel=0&controls=0&showinfo=0"></iframe>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="container story">
+	<div class="founders center-block">
+		<img src="./Images/FEND-Kickstarter-Founders-SujeneAndChristian-A_large.png" alt="Founders" class="img-responsive" />
+	</div>
+	<div class="row>">
+		<div class="col-xs-12 col-sm-12  col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2">
+			<p>
+				While riding our bikes to brunch one Sunday afternoon (without helmets), Christian was hit by a car. This was a major wake-up call and made us ask ourselves why don’t we wear helmets? To put it simply, they’re bulky, hot, and annoying to carrying around. We realized these reasons were at the expense of our safety and possibly even our lives. As experts in Product Development and Design, we decided to take matters into our own hands. Enter FEND. A bicycle helmet we would actually want to wear without compromising our core values.<br/><br/>
+				<strong>Christian Von Heifner</strong> with over ten years of industrial design and mechanical engineering experience has led projects with global clients such as Panasonic and Unilever. Most recently he launched HERO health as CoFounder and Head of Design and Mechanical Engineering.<br/><br/>
+				<strong>Sujene Kong</strong> with over ten years of experience in Retail Merchandising has managed the Accessories divisions of global luxury brands such as Saint Laurent, Jimmy Choo and Diesel. Most recently she oversaw the merchandising strategy for the Accessories division at Burberry Americas.
+			</p>
+		</div>
+	</div>
+</div>
+<div class="container sign-up">
+	<div class="row">
+		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+			<div class="listing">
+				<h3>Why not take a ride with us? But don't forget your helmet!</h3>
+				<input type="email" name="email" class="subscribe-input" placeholder="Email address" >
+				<button type="submit" class="btn-default btn listButton">Keep up with us!</button>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="container footer">
+	<div class="row">
+		<div class="col-xs-12 col-sm-12 hidden-md hidden-lg">
+			<div class="button">
+				<p><a class="btn btn-default" href="#" role="button">PRE-ORDER NOW</a></p>
+			</div>
+			<div class="footer-info">
+				<p id="faq">FAQ</p>
+				<p>Size Chart</p>
+				<p>Contact Us</p>
+			</div>
+			<div class="container social social-footer-small ">
+				<div class="social-icons ">
+					<i class="fa fa-facebook fa-lg"></i>
+					<i class="fa fa-twitter fa-lg"></i>
+					<i class="fa fa-instagram fa-lg"></i>
+				</div>
+			</div>
+			<div class="container footer-small">
+				<img src="./Images/FEND-WhiteLogo.png" class="fend-logo-footer-small">
+				<span id="copyright-small">© 2016 FEND. All rights reserved.</span>
+			</div>
+		</div>
+	</div>
+	<div class="row hidden-xs hidden-sm col-md-12 col-lg-12">
+		<div class="container part-of-footer">
+			<div class="footer-info-large">
+				<p>FAQ</p>
+				<p>Size Chart</p>
+				<p>Contact Us</p>
+			</div>
+		</div>
+		<div class="container footer-small">
+			<div class="button button-large">
+				<p><a class="btn btn-default" href="#" role="button">PRE-ORDER NOW</a></p>
+			</div>
+			<img src="./Images/FEND-WhiteLogo.png" class="fend-logo-footer-large">
+			<span id="copyright-large">© 2016 FEND. All rights reserved.</span>
+		</div>
+	</div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="./js/FEND.js"></script>
 </body>
 </html>
